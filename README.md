@@ -5,7 +5,10 @@
 
 **SWAPUGC**: **S**oft**w**are for **A**daptive **P**layback of Geotagged **U**ser-**G**enerated **C**ontent
 
-This is the repository for *SWAPUGC*: a platform for creating applications that consume geotagged User-Generated Content (UGC).
+This is the repository for *SWAPUGC*: a platform for creating applications that consume geotagged User-Generated Content (UGC), as presented at the 9th ACM Multimedia Systems Conference (MMSys '18).  
+ DOI: [10.1145/3204949.3208142](https://doi.org/10.1145/3204949.3208142).
+
+You can find the current release repository of SWAPUGC [here](https://github.com/emmanouil/SWAPUGC)
 
 ---
 
@@ -21,7 +24,7 @@ GoTo:
 
 ## About
 
-The about page is [here](https://github.com/emmanouil/SWAPUGC/blob/master/ABOUT.md).
+The about page is [here](https://github.com/acmmmsys/2018-SWAPUGC/blob/master/ABOUT.md).
 
 TL;DR:  
 SWAPUGC is a platform for building web applications that consume geotagged UGC, in a syncrhonous and adaptive manner. Some key features:
@@ -52,10 +55,13 @@ When the client is launched it does the following, in the corresponding order:
 
 ## Demo
 
-An online demo is available at [https://emmanouil.github.io/SWAPUGC/](https://emmanouil.github.io/SWAPUGC/). All the sample videos are encoded using H264, in 1080p at 2000kbps with 2s-long segments. Because we are simulating live scenario with dynamic switching, the buffer size is one segment, thus a stable high-speed connection is required; if such is not available, try running the demo locally.
+The current demo is available at [https://emmanouil.github.io/SWAPUGC/](https://emmanouil.github.io/SWAPUGC/)
+
+The MMSys '18 demo (described in the publication) is available at [https://acmmmsys.github.io/2018-SWAPUGC/](https://acmmmsys.github.io/2018-SWAPUGC/).   
+All the sample videos are encoded using H264, in 1080p at 2000kbps with 2s-long segments. Because we are simulating live scenario with dynamic switching, the buffer size is one segment, thus a stable high-speed connection is required; if such is not available, try running the demo locally.
 
 To run a local demo:
-1. [Download](https://github.com/emmanouil/SWAPUGC/archive/master.zip) and extract, or Clone (`git clone https://github.com/emmanouil/SWAPUGC.git`) the repository
+1. [Download](https://github.com/acmmmsys/2018-SWAPUGC/archive/master.zip) and extract, or Clone (`git clone https://github.com/acmmmsys/2018-SWAPUGC.git`) the repository
 2. Start an http server on the top dir of your local repository copy (e.g. download, copy and run [Mongoose](https://cesanta.com/binary.html), or `python -m http.server 8080` in the `SWAPUGC` folder)
 3. Open your browser, and navigate to the location of `index.html` (e.g. http://localhost:8080/index.html - for port = 8080)
 
